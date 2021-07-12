@@ -14,26 +14,26 @@
     <repository>
       <id>insecure-releases</id>
       <name>Insecure Repository Releases</name>
-      <url>http://insecure-repository.example</url>
+      <url>https://insecure-repository.example</url>
     </repository>
     <snapshotRepository>
         <id>insecure-snapshots</id>
         <name>Insecure Repository Snapshots</name>
-        <url>http://insecure-repository.example</url>
+        <url>https://insecure-repository.example</url>
     </snapshotRepository>
   </distributionManagement>
   <repositories>
       <repository>
         <id>insecure</id>
         <name>Insecure Repository</name>
-        <url>http://insecure-repository.example</url>
+        <url>https://insecure-repository.example</url>
       </repository>
   </repositories>
   <pluginRepositories>
     <pluginRepository>
         <id>insecure-plugins</id>
         <name>Insecure Repository Releases</name>
-        <url>http://insecure-repository.example</url>
+        <url>https://insecure-repository.example</url>
     </pluginRepository>
   </pluginRepositories>
 </project>
